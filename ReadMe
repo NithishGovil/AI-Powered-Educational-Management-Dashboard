@@ -1,0 +1,109 @@
+# 🎓 AI-Powered Educational Management Dashboard
+
+An interactive educational management dashboard developed using Python and Streamlit to manage student information, attendance, fees, analytics, and AI-based student performance prediction.
+
+## 🚀 Project Overview
+
+The AI-Powered Educational Management Dashboard is designed to provide a centralized platform for educational institutions to manage academic information and generate useful insights from student data.
+
+The system combines database management, interactive analytics, and machine learning to support academic monitoring and decision-making.
+
+## ✨ Key Features
+
+### 👨‍🎓 Student Management
+- Add and manage student information
+- Store academic records
+- Access student-related information
+
+### 📅 Attendance Management
+- Track student attendance
+- Store attendance information
+- Analyze attendance-related data
+
+### 💰 Fee Management
+- Manage student fee information
+- Track fee-related records
+
+### 📊 Analytics Dashboard
+- Visualize student-related data
+- Generate academic insights
+- Display important metrics
+
+### 🤖 AI Student Performance Prediction
+- Predict student marks based on attendance
+- Uses Random Forest Regression
+- Provides predicted marks
+- Displays performance classification
+- Provides visual representation of predictions
+
+### 🔐 Authentication
+- Login-based access
+- Session management
+- Logout functionality
+
+## 🧠 Machine Learning
+
+The project uses a **Random Forest Regression** model for student performance prediction.
+
+### Input
+- Attendance Percentage
+
+### Output
+- Predicted Final Marks
+
+The model is trained using student attendance and marks stored in the SQLite database.
+
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- SQLite
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Random Forest Regression
+
+## 📁 Project Structure
+
+```text
+Business_Management_Dashboard/
+│
+├── app.py
+├── database.py
+├── login.py
+├── requirements.txt
+├── college.db
+│
+└── modules/
+    ├── __init__.py
+    ├── home.py
+    ├── student.py
+    ├── attendance.py
+    ├── fee.py
+    ├── analytics.py
+    └── prediction.py
+
+🎯 Project Objective
+
+The main objective is to develop a centralized educational management platform that combines:
+
+Data Management
+Data Analytics
+Visualization
+Machine Learning
+Academic Performance Monitoring
+🔮 Future Enhancements
+Deploy the application online
+Add role-based authentication
+Add more machine learning features
+Include additional student performance parameters
+Add downloadable reports
+Improve database security
+Add model evaluation metrics
+Implement automated notifications
+👨‍💻 Developer
+
+Nithish Kumar Govil
+
+GitHub:
+https://github.com/NithishGovil
